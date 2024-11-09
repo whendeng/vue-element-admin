@@ -59,6 +59,7 @@ export default {
   },
   methods: {
     click() {
+      this.options = []
       this.show = !this.show
       if (this.show) {
         this.$refs.headerSearchSelect && this.$refs.headerSearchSelect.focus()
